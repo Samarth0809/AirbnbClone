@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Airbnb Cereal VF, Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    padding: 0 40px;
+}
+.container{
+    background: white;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+
+}
+.sub1{
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+
+}
+.demo{
+    height: 90px;
+    flex-basis: 33.33%;
+}
+.a1{
+    display: flex;
+    align-items: center;
+}
+.a2>ul{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 35px;
+}
+.a2 > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.a3{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.display{
+    padding: 13px 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    gap: 10px;
+}
+.display > .fa-user{
+    font-size: 20px;
+}
+.display:hover{
+    box-shadow: 1px 2px 2px #ccc;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sub2{
+    background: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+}
+.sub2{
+    cursor: pointer;
+    
+}
+.sub2  > article{
+    height: 75%;
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px #ccc;
+    border-radius: 50px;
+}
+.sub2 > article > div{
+    width: 100%;
+    display: flex;
+    height: 65%;
+    padding: 0px 20px 0px 40px;
+}
+.aa1,
+.aa2,
+.aa3{
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+}
+.aa1 > p,
+.aa2 > p,
+.aa3 > p,
+.aa4 p {
+    color: #111;
+    font-size: 12px;
+    font-weight: bold;
+}
+.aa1 > span,
+.aa2 > span,
+.aa3 > span,
+.aa4 span{
+    color: grey;
+    font-size: 15px;
+}
+.aa2,
+.aa3,
+.aa4{
+    padding-left: 20px;
+}
+.aa1,
+.aa4{
+    flex-basis: 33.3333%;
+}
+.aa2,
+.aa3{
+    flex-basis: 16.666%;
+}
+.aa4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aa4 > .d1 {
+    padding: 13px;
+    border: none;
+    border-radius: 100%;
+    background: #ff385c;
+}
+.fa-magnifying-glass{
+    color: #fff; 
+}
+.aa1:hover{
+    background: rgb(175, 170, 170);
+    border-radius: 20px;  
+}
+.aa2:hover{
+    background: rgb(175, 170, 170); 
+    border-radius: 20px;  
+}
+.aa3:hover{
+    background: rgb(175, 170, 170); 
+    border-radius: 20px;  
+}
+.aa4:hover{
+    background: rgb(175, 170, 170);  
+    border-radius: 20px; 
+}
+.options{
+    display: flex;
+    gap: 55px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.o1{
+    cursor: pointer;
+}
+.showmore{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    gap: 10px;
+    font-weight: bold;
+}
+.button1{
+    padding: 14px 24px;
+    font-size: 16px;
+    border-radius: 10px;
+    background: rgb(34, 34, 34);
+    color: white;
+    cursor: pointer;
+    
+}
+.button1:hover{
+    background: #111;
+}
+.grid-container{
+    width: 90%;
+    height: 80%;
+    margin: 10px auto;
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+}
+.grid-items{
+    /* border: 1px solid black; */
+}
+img{
+height: 50px;
+width: revert;
+}
+.sub3{
+   height: 100px;
+   border-bottom: 1px solid grey; 
+}
+.sub4{
+    margin: 20px auto;
+    padding: 0 40px;
+}
+/* .grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    border: 1px solid black;
+} */
+.grid-items{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    gap: 10px;
+}
+.grid-items > figure{
+    width: 100%;
+    height: 65%;
+}
+.grid-items>figure>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.grid-items>article>.aside1{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.grid-items>article>.aside1>h1{
+    font-weight: bold;
+    color: #111;
+    font-size: 17px;
+}
+article{
+    display: flex;
+}
+.categories{
+    padding: 50px auto;
+    display: flex;
+    flex-basis: auto;
+    width: 100%;
+    gap: 20px;
+    border-bottom: 1px solid rgb(185, 184, 184);
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+/* .foot{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 100px auto;
+} */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    row-gap: 20px;
+    column-gap: 20px;
+    text-align: center;
+    width: 100%;
+}
+button{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
